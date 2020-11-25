@@ -1,0 +1,425 @@
+
+
+
+.navigation {
+    width: 100%;
+    height: 600px;
+    background-image: url("../pic/meny.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center; 
+    position: relative;
+    }
+
+/*------Navigationsruta-------*/
+
+
+ #mainpictext2 {
+    margin-left: 3%;
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    width: 94%; 
+    height: auto;
+    float: left;
+    background-color:white;    
+    font-family: 'Raleway', sans-serif;
+    color: #584d49;   
+    text-align: center; 
+}   
+#mainpictext2 img {
+    float: left; 
+    width: 30%; 
+    margin-left: 35%;
+}
+
+#mainpictext2 h3 {
+    margin-bottom: 1%;
+    color: #bcbcbc; 
+    font-size: 2em; 
+    font-family: 'Bilbo Swash Caps', cursive;
+}
+#iconCutlery {
+    float: left; 
+    width: 8%; 
+    margin-left: 46%;
+    margin-right: 50%; 
+    margin-top: 1%;  
+}
+.menyPageInfoHeading {
+    font-size: 3.5em;
+}
+ #mainpictext2 p {
+     width: 40%; 
+     text-align: center; 
+     margin-left: 30%;
+ }
+
+ .menyPageInfoSmall {
+     font-style: italic; 
+ }
+ 
+/* ------------------------Inlägg 1 - Menyer ----------------------------*/	
+#meny-info {
+margin-left: 3%; 
+width: 94%;
+height: auto;
+background-color:#f2f2f2;
+float: left;
+margin-bottom: 3%;
+}
+
+#meny-info h2{
+    font-size: 2.3em;
+    margin-bottom: 4%; 
+    }
+
+.optionalInfo {
+    margin-bottom: 3%; 
+    
+}
+
+.enclosingBox {
+    width: 96%; 
+    height: auto;
+    float: left; 
+    margin-left: 6%;
+    margin-bottom: 5%; 
+    margin-top: 5%;
+}
+
+.enclosingBox2 {
+    width: 94%; 
+    height: auto;
+    float: left; 
+    padding-left: 6%;
+    padding-bottom: 5%; 
+    padding-top: 5%;
+    background-color: white;
+    
+}
+
+.dishes {
+    margin-left: 5%;   
+    float: left;
+    width: 40%;
+   
+}
+
+.dishes2 {
+    margin-left: 5%; 
+    margin-right: 4%; 
+    float: left;
+    width: 23%; 
+}
+
+.dishes2 h2 {
+    padding-bottom: 2%;
+    
+}
+
+.dish {
+    margin-bottom: 5%;
+    height: 100%;
+    float: left;
+    width: 100%; 
+}
+
+.dishList {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.dishList ul{
+     margin-top: 3%;
+    margin-left: 5%;
+}
+
+.dish h3 {
+    margin-bottom: 2%; 
+}
+.ingredients {
+    font-style: italic; 
+    float: left; 
+    width: 80%; 
+    margin-bottom: 3%;
+}
+
+
+
+/* ------------------------Responsive max-width 1100px----------------------------*/    
+@media only screen and (max-width: 1100px) {  
+body {
+    width: 100%; 
+}
+
+.mediumSize {
+    display:none; 
+}
+
+.ingredients {
+    font-size: 0.9em; 
+}
+
+footer {
+    min-height: 200px;
+}
+
+}/*----Slut Responsiv 1100px*/
+
+
+
+
+
+/* ------------------------Responsive Ipad version max-width 768px----------------------------*/    
+@media only screen and (min-width: 461px) and (max-width: 770px) {  
+
+h3 {
+    font-size: 1em;
+}
+
+/* ------------Responsive Ipad version max-width 768px-------------*/    
+#activeIcon {
+	width: 170px !important;
+	height: 24px;
+	background-image: url('../pic/kryssMeny2.png');
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-left: 99%;
+	margin-left: 10%;
+	padding-top: 30% !important;
+}
+
+.tablet {
+    display: none; 
+}
+
+.burgerMenu {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+#burgerMenuList {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.burgerListItem {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+#activeIcon {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+#meny { 
+    width: 60%; 
+    display: none;
+}
+/*-----Footer-------*/
+#openTime {
+    text-align: center; 
+}
+.comming-soon2 {
+    display: inline;
+}
+.comming-soon3 {
+    display:inline; 
+}
+.showWeekend {
+    display: none; 
+}
+
+li {
+    font-size: 0.7em; 
+}
+
+.footerBox h6{
+    font-size: 0.8em; 
+    margin-top: 5%; 
+ }
+
+.smalLink {
+    font-size: 0.8em; 
+}
+
+.txtSocialamedier {
+    font-size: 0.8em; 
+    margin-left: 5%;
+}
+
+.adress {
+    font-size: 0.7em; 
+}
+
+.epostRubrik {
+    font-size: 0.7em; 
+}
+
+} /*----Slut Responsiv Ipad version 768px*/
+
+/* ------------------------Responsive Ipad version max-width 555px----------------------------*/	
+@media only screen and (min-width: 461px) and (max-width: 554px) {      
+    
+    /*-----Footer-------*/
+    
+    footer {
+        padding-top: 3%; 
+        padding-bottom: 3%;
+    }
+    
+    .footerBox {
+        width: 80%;     
+    }
+    .footerBox h6{
+       font-size: 0.8em; 
+       margin-top: 5%; 
+    }
+    
+    ul {
+        margin-top:2%; 
+    }
+    
+    li{
+        font-size: 0.7em; 
+    }
+    #openTime {
+        text-align:center; 
+    }
+    .showWeekend {
+        display: none; 
+    }
+    .comming-soon2 {
+        display: none;
+    }
+    .comming-soon3 {
+        display:inline; 
+    }
+    .comming-soon4 {
+        display: inline;
+    }
+    .hideDottsBetween {
+        display: inline; 
+    }
+    
+    }
+
+/* ------------------------Responsive Ipad version max-width 460px----------------------------*/    
+@media only screen and (max-width: 460px) {  
+
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 2%; 
+    text-align: center;
+    margin-right: 5%;
+}
+
+p {
+    font-size: 0.8em; 
+}
+
+.optionalInfo {
+    margin-left: 20%;
+}
+
+.burgerMenu {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+#burgerMenuList {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.burgerListItem {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#activeIcon {
+    width: 80px;
+    padding-top: 30%;
+}
+.mobile {
+    display:none; 
+}
+
+#iconCutlery {
+    width: 30%;
+   float: left;
+   margin-left: 39%;
+   margin-bottom: 1%;
+   margin-top: 10%; 
+
+}
+
+.navigation {
+    width: 100%;
+    height: 400px;
+    background-image: url("../pic/menyMobile.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center; 
+    position: relative;
+    }
+
+.menyPageInfoHeading {
+    font-size: 2.5em; 
+}
+
+#mainpictext2 {
+    height: 400px; 
+}
+
+
+.dishes {
+    width: 90%; 
+}
+
+.dishList {
+    margin-top: 5%; 
+}
+
+.dishes2 {
+    width: 90%; 
+    height: 250px; 
+}
+
+/*-----Footer-------*/
+footer {
+    padding-top: 3%; 
+}
+
+.footerBox {
+    width: 80%;     
+}
+.footerBox h6{
+   font-size: 0.8em; 
+   margin-top: 5%; 
+}
+ } /*----Slut Responsiv mobil version 375px*/ 
+
+
+
+
+
+
+
+
+
+
+

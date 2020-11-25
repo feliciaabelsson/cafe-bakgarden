@@ -1,0 +1,785 @@
+
+
+
+.navigation {
+    width: 100%;
+    height: 600px;
+    background-image: url("../pic/meny.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center; 
+    position: relative;
+    }
+
+
+.mobile {
+   display: none;
+
+}
+
+.tablet {
+    display: none;
+}
+
+.mediumSize {
+    display: inline;
+}
+.smallSize {
+    display: none;
+}
+
+/*------Navigationsruta-------*/
+
+
+ #mainpictext2 {
+    margin-left: 3%;
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    width: 94%; 
+    height: auto;
+    float: left;
+    background-color:white;    
+    font-family: 'Raleway', sans-serif;
+    color: #584d49;   
+    text-align: center; 
+}   
+#mainpictext2 img {
+    float: left; 
+    width: 30%; 
+    margin-left: 35%;
+}
+
+#mainpictext2 h3 {
+    margin-bottom: 1%;
+    color: #bcbcbc; 
+    font-size: 2em; 
+    text-align: center;
+    font-family: 'Bilbo Swash Caps', cursive;
+    margin-right: 1%;
+}
+#iconCutlery {
+    float: left; 
+    width: 8%; 
+    margin-left: 46%;
+    margin-right: 50%; 
+    margin-top: 1%;  
+}
+.menyPageInfoHeading {
+    font-size: 3.5em;
+    text-align: center
+}
+ #mainpictext2 p {
+     width: 40%; 
+     text-align: center; 
+     margin-left: 30%;
+ }
+
+ .menyPageInfoSmall {
+     font-style: italic; 
+ }
+ 
+/* ------------------------Inlägg 1 - Menyer ----------------------------*/	
+#meny-info {
+    margin-left: 3%; 
+    width: 94%;
+    height: 100%;
+    background-color:#f2f2f2;
+    float: left;
+    margin-bottom: 3%;
+    }
+
+#meny-info h2{
+    font-size: 2.3em;
+    }
+
+.optionalInfo {
+    margin-bottom: 3%; 
+    margin-top: 3%;
+    text-align: center;
+    font-style: italic;
+    color: #5d7f64;     
+    }
+
+.optionalInfoSallad {
+    margin-bottom: 3%; 
+    margin-top: 3%;
+    text-align: left;
+    font-style: italic;
+    color: #5d7f64;  
+    margin-left: 6%;
+}
+
+.enclosingBox {
+    width: 96%; 
+    height: 100%;
+    float: left; 
+    margin-left: 6%;
+    margin-bottom: 5%; 
+    margin-top: 5%;
+    
+    }
+
+.enclosingBox2 {
+    width: 100%; 
+    height: auto;
+    float: left; 
+    
+    padding-bottom: 5%; 
+    padding-top: 5%;
+    background-color: white;
+    
+}
+
+.theTextBox2 {
+    padding-left: 4%; 
+}
+
+.dishes {
+    margin-left: 5%;   
+    float: left;
+    width: 40%; 
+    }
+
+.dishes h2 {
+    margin-bottom: 6%;
+    }
+
+.dishesHeading{
+    margin-top: 6%;
+    }
+
+.dishes2 {
+    margin-left: 5%; 
+    margin-right: 4%; 
+    float: left;
+    width: 23%; 
+    }
+
+
+.dish {
+    margin-bottom: 1%;
+    height: 100%;
+    float: left;
+    width: 100%; 
+    color: #47413f;
+    }
+
+.dishList {
+    width: 100%;
+    margin-bottom: 5%;
+    color: #47413f;
+    }
+
+.dishList ul{
+    margin-top: 3%;
+    }
+
+.dishLi {
+    color: #776c68;
+    font-size: 0.9em;
+}
+
+.dish h3 {
+    margin-bottom: 2%; 
+    }
+
+.dishH3 {
+    padding-bottom: 3%;
+    }
+
+.dishH2 {
+    text-align: center;
+    margin-bottom: 6%;
+    }
+
+.ingredients {
+    font-style: italic; 
+    float: left; 
+    width: 80%; 
+    margin-bottom: 3%;
+    color: #776c68;
+    }
+
+.servingTime {
+    text-align: center;
+    padding-bottom: 3%;
+    color: #584d49;
+    font-family: 'Amiri', serif;
+    text-transform: uppercase;
+    font-size: 0.9em;
+   
+    }
+
+.extras {
+    font-size: 1em;
+    text-align: center;
+    font-family: 'Amiri', serif;
+    font-weight: bold;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    }
+
+#lunchH2    {
+    text-align: center;
+}
+
+.piesHeading {
+    margin-bottom: 6%;
+    text-align:center;
+}
+
+
+
+
+/*Punkter i menyn mellan 960px-1090px*/
+@media only screen and (min-width: 960px) and (max-width:1100px) {
+    .mediumSize {
+        display: none;
+    }
+.smallSize {
+    display: inline;
+}
+.piesHeading {
+    text-align: center;
+    margin-bottom: 6%;
+}
+
+.dishes2 h3 {
+    font-size: 1em;
+}
+.dishes2 h2 {
+    font-size: 1.8em !important;
+}
+.servingTime {
+    font-size: 0.8em;
+    padding-top: 1%;
+}
+
+}
+/*Slut på punkter mellan 960px-1090px*/
+
+/* ------------------------Responsive Ipad version max-width 770px----------------------------*/  
+@media only screen  and (max-width:770px) {
+    .navigation {
+        height: 400px;
+    }
+    
+#iconCutlery {
+    width: 15%;
+   float: left;
+   margin-left: 43%;
+   margin-bottom: 1%;
+   margin-top: 10%; 
+}
+
+
+    }
+
+/* ------------------------Responsive Ipad version max-width 768px----------------------------*/    
+@media only screen and (min-width: 601px) and (max-width: 960px) {  
+
+#mainpictext2 {
+    padding-bottom: 10%; 
+ }
+
+.optionalInfoSallad {
+    text-align: center; 
+}
+.dish h3 {
+    font-size: 1em !important;
+    text-align: center;
+    }
+
+.dishes h2 {
+    font-size: 1.8em !important;
+    text-align: center;
+    }
+
+.dishes2 h3 {
+    font-size: 1em !important;
+}
+
+.dishes2 {
+    width: 95%;
+    text-align: center;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.dishes2 h2 {
+    font-size: 1.8em !important;
+}
+
+.enclosingBox {
+    width: 100%;
+    margin-left: 3%;  
+    padding-top: 4%;
+    padding-bottom: 4%;  
+    }
+.enclosingBox2 {
+    padding-top: 8%;
+}
+
+.dishH2 {
+    margin-bottom: 3%;
+}
+
+.piesHeading {
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+#lunchH2 {
+    padding-bottom: 2%;
+    padding-top: 3%;
+}
+
+.servingTime {
+    padding-bottom: 1%;
+}
+
+.dishes2 .optionalInfo {
+    margin-top: 0%;
+}
+
+.dishList ul {
+    padding-bottom: 2%;
+}
+
+.dishH3 {
+    margin-bottom: 0% !important;
+}
+
+.dishLi {
+    font-size: 1.1em;
+}
+
+.dishes {
+    margin-left: 0% !important;
+
+    }
+
+.dishesHeading {
+    margin-top: 12%;
+}
+.ingredients {
+    font-size: 0.8em;
+    text-align: center;
+    width: 100%;
+    }   
+    
+.tablet {
+    display: inline; 
+}
+.mediumSize {
+    display: none;
+}
+.mobile {
+    display: none;
+}
+
+
+/*Hamburgermeny*/
+#activeIcon {
+	width: 170px !important;
+	height: 24px;
+	background-image: url('../pic/kryssMeny2.png');
+	background-repeat: no-repeat;
+	background-position: 10% 50%;
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding-left: 99%;
+	margin-left: 10%;
+	padding-top: 30% !important;
+}
+
+.burgerMenu {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+#burgerMenuList {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.burgerListItem {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+#activeIcon {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+/* Slut hamburge meny */
+
+/*-----Footer-------*/
+#openTime {
+    text-align: center; 
+}
+.comming-soon2 {
+    display: inline;
+}
+.comming-soon3 {
+    display:inline; 
+}
+.showWeekend {
+    display: none; 
+}
+
+footer li {
+    font-size: 0.7em; 
+}
+
+.footerBox h6{
+    font-size: 0.8em; 
+    margin-top: 5%; 
+ }
+
+.smalLink {
+    font-size: 0.8em; 
+}
+
+.txtSocialamedier {
+    font-size: 0.8em; 
+    margin-left: 5%;
+}
+
+.adress {
+    font-size: 0.7em; 
+}
+
+.epostRubrik {
+    font-size: 0.7em; 
+    }
+
+} /*----Slut Responsiv Ipad version 768px*/
+
+/* ------------------------Responsive Ipad version max-width 555px----------------------------*/	
+@media only screen and (min-width: 461px) and (max-width: 600px) {      
+
+
+.optionalInfoSallad {
+    text-align: center; 
+}
+.mediumSize {
+    display: none;
+}
+
+h2 {
+    font-size: 1.9em !important;
+    text-align: center;
+        }
+
+
+.enclosingBox {
+    width: 100%;
+    margin-left: 0%;
+}
+
+
+.dishes {
+    width: 100%; 
+    margin-left: 0%;
+    }
+
+h3 {
+    text-align: center;
+    } 
+
+.piesHeading {
+    margin-bottom: 6%;
+    margin-top: 5%;
+}
+
+.ingredients {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+
+.dishes h2 {
+    margin-top: 6%;
+    }
+
+.dishList {
+    margin-top: 5%; 
+    text-align: center;
+    }
+    
+.dishes2 {
+    width: 95%; 
+    height: 100%;
+    margin-left: 0%;
+    margin-right: 0%; 
+    }
+    
+#lunchH2 {
+    margin-top: 5%;
+    }
+    
+.dishH2 {
+    margin-top: 5%;
+    }
+    
+.theTextBox2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+    
+.optionalInfo {
+    text-align: center;
+    }
+    
+.servingTime {
+    padding-bottom: 0%;
+    margin-top: 0%;
+    }
+    
+#lunchH2 {
+    margin-bottom: 0% !important;
+    }
+    
+.dishes2 .dishH3 {
+    margin-bottom: 0%;
+    }
+    
+.extras {
+    padding-top: 3%;
+    }
+    
+.dishH3 {
+    text-align: center;
+    }
+    
+.dishLi {
+    font-size: 1.3em; 
+    }
+
+.mobile {
+    display: inline;
+}
+.tablet {
+    display: none;
+}
+
+    /*-----Footer-------*/
+    
+    footer {
+        padding-top: 3%; 
+        padding-bottom: 3%;
+    }
+    
+    .footerBox {
+        width: 80%;     
+    }
+    .footerBox h6{
+       font-size: 0.8em; 
+       margin-top: 5%; 
+    }
+    #openTime {
+        text-align:center; 
+        }
+    .showWeekend {
+        display: none; 
+        }
+    .comming-soon2 {
+        display: none;
+        }
+    .comming-soon3 {
+        display:inline; 
+        }
+    .comming-soon4 {
+        display: inline;
+        }
+    .hideDottsBetween {
+        display: inline; 
+        }
+    
+}
+
+/* ------------------------Responsive Mobile version max-width 460px----------------------------*/    
+@media only screen and (max-width: 460px) {  
+#mainpictext2 {
+    padding-bottom: 10%; 
+}
+
+h2 {
+    font-size: 1.9em !important;
+    text-align: center;    
+    }
+
+.enclosingBox {
+    width: 100%;
+    margin-left: 0%;
+    }
+
+h3 {
+    text-align: center;
+    font-size: 1em;
+    }
+
+p {
+    font-size: 0.8em; 
+    text-align: center;
+    }
+
+.ingredients {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.dishLi {
+    font-size: 1.3em; 
+    }
+
+#activeIcon {
+    width: 80px;
+    padding-top: 30%;
+}
+
+.mobile {
+    display:initial; 
+    }
+
+#iconCutlery {
+    width: 30%;
+   float: left;
+   margin-left: 37%;
+   margin-bottom: 1%;
+   margin-top: 10%; 
+}
+
+.navigation {
+    width: 100%;
+    height: 400px;
+    background-image: url("../pic/menyMobile.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center; 
+    position: relative;
+    }
+
+.optionalInfoSallad {
+    text-align: center; 
+}
+
+.optionalInfo {
+    text-align: center;
+}
+
+.menyPageInfoHeading {
+    font-size: 2.5em; 
+    }
+
+#mainpictext2 {
+    height: 400px; 
+    }
+
+
+.dishes {
+    width: 90%; 
+    }
+
+.dishes h2 {
+    margin-top: 6%;
+    }
+
+.dishList {
+    margin-top: 5%; 
+    text-align: center;
+    }
+
+.dishes2 {
+    width: 95%; 
+    height: 100%;
+    margin-left: 0%;
+    margin-right: 0%; 
+    }
+
+#lunchH2 {
+    margin-top: 5%;
+    }
+
+.dishH2 {
+    margin-top: 5%;
+    }
+
+.theTextBox2 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    }
+
+.servingTime {
+    padding-bottom: 0%;
+    margin-top: 0%;
+    }
+
+#lunchH2 {
+    margin-bottom: 0% !important;
+    }
+
+.dishes2 .dishH3 {
+    margin-bottom: 0%;
+    }
+
+.extras {
+    padding-top: 3%;
+    }
+
+.dishH3 {
+    text-align: center;
+    }
+
+.tablet {
+    display: none;
+}
+
+.mediumSize {
+    display: none;
+}
+
+/*Hamburgarmeny*/    
+.burgerMenu {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+#burgerMenuList {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+}
+
+.burgerListItem {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    }
+/*Slut på hamburgermeny*/ 
+
+/*-----Footer-------*/
+footer {
+    padding-top: 3%; 
+}
+
+.footerBox {
+    width: 80%;     
+}
+.footerBox h6{
+    font-size: 0.8em; 
+    margin-top: 5%; 
+}
+ } /*----Slut Responsiv mobil version 460px*/ 
+
+

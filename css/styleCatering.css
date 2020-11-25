@@ -1,0 +1,400 @@
+
+
+.shortInfo {
+    text-decoration: none;
+    }
+/* ------------------------Global navigation ----------------------------*/     
+
+@media screen and (min-width:961px) {
+    #mainpictext h1 {
+        text-shadow: 1px 2px 2px rgba(0,0,0, 0.5);
+        text-transform: uppercase;
+        }
+    
+    .shortInfo {
+        color: white;
+        text-shadow: 1px 2px 2px rgba(0,0,0, 0.5);
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.2;
+        }
+    
+    
+    } /*Slut på endast desktop*/
+    
+    
+    .navigation {
+        width: 100%;
+        height: 600px;
+        background-image: url("../pic/cateringpic.jpg"); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right center; 
+        position: relative;
+        }
+    
+    .cateringInfo {
+        margin-top: 5%;
+        text-align: center;
+        }
+    
+    .cateringHeading {
+        text-align: center;
+        }
+    /*---------------Inlägg 1-------------*/
+    #welcome-info {
+        margin-left: 3%; 
+        margin-right: 3%;
+    }
+    
+    .boxes {
+        padding-left: 6%;
+    }
+    
+    .textBox {
+        width: 23%;
+        float: left;
+        margin: 2%;
+        padding: 2%;
+        padding-bottom: 4%;
+        background: #f2f2f2;
+        height: 200px; 
+        border: 1px solid;
+        border-color: #47413f1f;   
+        }
+    
+    .cateringText  {
+        padding-top: 10%;
+        text-align: center;
+        font-family: 'Crimson Text', serif;
+        color: #47413f;
+        }
+    
+    
+    .informationCatering {
+        margin-left: 3%; 
+        margin-right: 3%;
+        height: 100%;
+        background: white;
+        float: left;
+        padding-top: 2%;
+        padding-bottom: 12%;  
+        margin-bottom: 3%; 
+        }
+    
+    .headingCatering {
+        text-align: center;
+        color: #584d49;
+        font-family: 'Open Sans Condensed', sans-serif;
+        text-transform: uppercase;
+        font-size: 1.5em;
+    
+        text-decoration: underline;
+        text-underline-position: under;
+        text-decoration-color: #584d4933;
+        }
+    
+    .postPic {
+        float:left;
+        width: 350px; 
+        padding-left: 2%;
+        padding-top: 5%;
+        }
+    
+     .postPic img {
+        max-width: 100%;
+        height: auto;
+        border: 1px solid;
+        border-color: white;
+        padding: 4px;
+        box-shadow: 2px 2px 2px #888888;
+        }
+    
+    
+    .column-box {
+        margin-left:10%;
+        }
+     
+    @media only screen and (min-width:771px) and (max-width:1100px) {
+        .cateringHeading {
+            font-size: 2em;
+        }
+    
+        #welcome-info {
+            height: 100%;
+        }
+
+        #mainpic {
+            padding-top: 16%;
+            padding-left: 28%;
+            font-size: 0.8em;
+        }
+    .textBox {
+        height: 230px;
+    }
+    #mainpictext h1 {
+        text-shadow: 1px 2px 2px rgba(0,0,0, 0.5);
+        text-transform: uppercase;
+        }
+    
+    .shortInfo {
+        color: white;
+        text-shadow: 1px 2px 2px rgba(0,0,0, 0.5);
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.2;
+        }
+    }
+    
+    
+     @media only screen and (min-width:651px) and (max-width:770px) {
+
+        #mainpic {
+            padding-top: 16%;
+            padding-left: 28%;
+            font-size: 0.8em;
+        }
+
+        .navigation {
+            height: 400px;
+
+        }
+        .postPic img {
+            width: 230px;
+        }
+    
+        .column-box {
+            width: 100%;
+            margin-left: 0%;
+        }
+    
+        .postPic {
+            width:40%;
+        }
+    
+    .column {
+        padding-left: 4%;
+    }
+    #welcome-info {
+        padding-bottom: 0%;
+    }
+    
+    #mainpictext h1 {
+        text-shadow: 1px 2px 2px rgba(0,0,0, 0.5);
+        text-transform: uppercase;
+        font-size: 2em;
+        }
+    
+    .shortInfo {
+        color: white;
+        text-shadow: 1px 2px 2px rgba(0,0,0, 0.5);
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.2;
+        }
+    
+    #mainpic {
+        margin-left: 0%;
+    }
+
+    .textBox {
+        
+        padding-bottom: 8%;
+        }
+     } 
+    
+    
+    
+    
+    /*Brytpunkt för tablets*/
+    @media only screen and (min-width:551px) and (max-width:650px) {
+    .navigation {
+        height: 400px;
+    }
+
+    #mainpic {
+        display: none;
+        }
+        
+    .shortInfo {
+        color: white;
+        text-shadow: 1px 2px 2px rgba(0,0,0, 0.5);
+        text-align: center;
+        font-size: 1.1em;
+        line-height: 1.2;
+        } 
+    
+    .column-box {
+        margin-left: 7%;
+        }
+    
+    .textBox {
+        width: 24%;
+        padding-bottom: 10%;
+        }
+        
+    .boxes {
+        padding-left: 3%; 
+            
+        }
+    
+    .postPic img {
+        width: 85%;
+        margin-left: 20%;
+        }
+    
+    .textBox {
+        height: 230px;
+    }   
+    
+    #welcome-info {
+        height: 100%;
+        }
+    
+    .cateringHeading {
+        font-size: 1.8em;
+        }
+    
+    .column {
+        width: 95%;    
+        }
+    
+    .column-box {
+        width:90%;
+        }
+    }
+    
+    
+    
+     /*Brytpunkt för mobila enheter*/
+     @media only screen and (max-width:550px) {
+    .burgerMenu {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #burgerMenuList {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .burgerListItem {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .textBox {
+        width:70%; 
+        padding-top: 5%;
+        margin-left: 9%;
+        height: 180px;
+        
+        }
+    
+    .informationCatering{
+        height: 100%;
+        }
+    
+    .column {
+        width: 100%; 
+        }
+    
+    .cateringHeading {
+        font-size: 1.7em;
+        text-align: center;
+        width: 100%;  
+        padding-bottom: 4%;  
+        padding-top: 5%;
+        }
+    
+    .column-box {
+        margin-right: 30%;
+        width: 80%; 
+        }
+    
+    #welcome-info {
+        height: 100%;
+        padding-bottom: 20%;
+        padding-top: 4%;
+        }
+        
+    .cateringInfo {
+        padding-top: 2%;
+        padding-bottom: 3%;
+        }
+        
+    .cateringText {
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    
+    .postPic {
+        width: 90%; 
+    }
+    .postPic img {
+       width: 90%;
+       margin-left: 7%;
+        }
+    
+    #mainpictext {
+        display: none;
+    }
+    
+    .navigation {
+        width: 100%;
+        height: 400px;
+        background-image: url("../pic/cateringpicMobile2.jpg"); 
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom; 
+        }
+    /*-----Footer-------*/
+    footer {
+        padding-top: 3%; 
+    }
+    
+    .footerBox {
+        width: 75%;     
+    }
+    .footerBox h6{
+       font-size: 0.8em; 
+       margin-top: 5%; 
+    }
+    
+    ul {
+        margin-top:2%; 
+    }
+    
+    li{
+        font-size: 0.7em; 
+    }
+    #openTime {
+        text-align:center; 
+    }
+    .showWeekend {
+        display: none; 
+    }
+    .comming-soon2 {
+        display: none;
+    }
+    .comming-soon3 {
+        display:inline; 
+    }
+    .hideDottsBetween {
+        display: inline; 
+    }
+    
+    .txtSocialamedier {
+        font-size: 0.8em; 
+        margin-left: 5%;
+    }
+    
+    .ikonerBorder:after {
+        display: none; 
+    }
+    
+    } /*Slut på mobila enheter*/
+    

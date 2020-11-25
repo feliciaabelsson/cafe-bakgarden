@@ -1,0 +1,1071 @@
+* {
+	margin:0px;
+	padding:0px;
+    }
+
+body {
+    background-color: #eeeae7; 
+    height: auto;   
+    width: 100%;
+    }
+
+h2 {
+    color: #584d49;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    line-height: 1; 
+    }
+
+p {
+    font-family: 'Crimson Text', serif;
+    color: #47413f;
+}
+
+.firstPageInfo {
+    margin-top: 5%;    
+}
+
+header {
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-left: 3%; 
+}
+
+
+/* ------------------------Global navigation ----------------------------*/		
+
+
+.navigation {
+    width: 100%;
+    height: 600px;
+    background-image: url("../pic/forstasida.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right bottom; 
+    -webkit-background-size: cover;  
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    position: relative;
+    }
+
+
+#logotyp {
+    width: 20%;
+    display: inline;
+    margin-left: 43%;
+}
+
+#logotyp img {
+    max-height: 80px;
+    margin-top: 5%;
+    } 
+
+#meny {
+    float: left;  
+    width: 40%; 
+    position: absolute;
+    padding: 2%;
+    margin-left: 33.5%;
+    }  
+
+#meny ul li{
+    list-style-type: none; 
+    text-align: left;  
+    display: inline; 
+    padding: 1%;
+    margin-left: 1%;
+    text-decoration: none; 
+    }
+
+#meny ul li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 1px 2px 2px rgba(0,0,0, 0.5);
+    }
+
+#thisSection {
+    text-decoration: underline !important;
+    text-underline-position: under;
+    }
+
+#meny ul li a:hover {
+    color:white; 
+    text-decoration: underline;
+    text-underline-position: under;
+    }
+
+/*------Main pic-------*/
+#mainpic {
+    padding-top: 14%;
+    padding-left: 32%;
+
+    }
+
+ #mainpictext {
+    position: absolute; 
+    } 
+
+ #mainpictext h1 {
+    font-family: 'raleway', sans-serif;
+	top:40%;
+	font-size:2.5em;
+	color:#f2f3f3;
+	} 
+
+/*---------------Inlägg 1-------------*/
+    
+.column-box{
+    margin-left: 15%;  
+    float: left;
+    }
+    
+#welcome-info {
+    margin-left: 3%; 
+    margin-right: 3%;
+    width: 94%;
+    height: 350px;
+    background: white;
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    }
+
+.column {
+    float: left;
+    width: 47%;
+    margin-right: 2%;  
+    padding-top: 6%;
+    }
+
+.firstPageInfoSmall {
+    display: inline; 
+}
+
+
+#welcomePic {
+    float:left;
+    width: 28%; 
+    padding-left: 2%;
+    padding-top: 5%;
+}
+
+#welcomePic img {
+    width: 350px; 
+    border: 1px solid;
+    border-color: white;
+    padding: 4px;
+    box-shadow: 2px 2px 2px #888888;
+
+}
+
+/*-------------Inlägg 2 Navigationsboxar--------------*/
+.navigationbox {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    background-color: #f2f2f2;
+    float: left;
+    }   
+    
+.boxpic {
+    margin-top: 5%; 
+    margin-bottom: 5%;
+    padding: 0.5%;
+    position:relative;
+    max-width:28%; 
+    margin-left:3%;
+    display:inline-block;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }    
+
+    /*inspiration black&white-effect code from webpage:https://codepen.io/nxworld/pen/ZYNOBZ*/
+.navigationbox img  {
+    max-width:100%;
+    filter:grayscale(0%);
+    transition:ease-in-out;
+
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    }
+    
+.navigationbox img:hover {
+    filter:grayscale(100%);
+    
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    }
+
+.boxpictext {
+    position:absolute;
+    top:40%;
+    background-color: rgba(0, 0, 0, 0.7);
+    width:50%;
+    margin-left:25%;
+    } 
+
+.boxpictext a {
+    text-decoration: none; 
+}
+
+.boxpictext h2:hover {
+    color: #a8a8a8 !important; 
+}
+
+.boxpictext h2, .boxpictext h6 {
+    color: white;
+    font-size:2.5em;
+    padding:10%;
+    text-align:center;
+    }
+
+/*-------------Inlägg 3--------------*/
+
+#infoContainer {
+    float:left; 
+    width:100%;
+    background-color: #584d49;
+    }
+
+.infoBox {
+    width:25%; 
+    margin:2%;
+    padding:2%;
+    float:left; 
+    text-align: center;
+    }
+
+.infoBox h3 {
+    color: #dbd2c6;
+    text-transform: uppercase;
+    font-size: 0.8em; 
+    padding-top: 10%;
+    padding-bottom: 2%;
+    letter-spacing: 3px;
+    font-family: 'Amiri', serif;
+    }
+
+.infoHeadline {
+    color: #f3ede6;
+    text-transform: uppercase;
+    padding-bottom: 5%;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    font-family: 'Raleway', sans-serif;
+    }
+
+.infoText {
+    color: #c6baac;
+    font-style: italic;
+}
+
+.linkUndersidor {
+    color: #f3ede6;
+    text-decoration: none;
+}
+
+.linkUndersidor:hover {
+    color:#5d7f64; 
+    font-weight: bold;
+}
+
+
+
+/*--------Inlägg 4-------------*/
+#presentation {
+    margin-left: 3%; 
+    margin-right: 3%;
+    height: 350px;
+    background: white;
+    margin-right: 3%;
+    float: left;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-bottom: 3%;
+    }
+.column-box-presentation {
+    margin-left: 15%;  
+    float: left;
+}
+
+#presentationImg {
+    float:left;
+    width: 28%; 
+    padding-top: 5%;
+    margin-right: 10%; 
+}
+
+#presentationImg img {
+    width: 350px; 
+    border: 1px solid;
+    border-color: white;
+    padding: 4px;
+    box-shadow: 2px 2px 2px #888888;
+}
+
+.presentationInfo {
+    float: left;
+    width: 47%;
+    margin-left: 3%;  
+    padding-top: 6%;
+    }
+
+.presentationInfo h2 {
+    text-align: left;
+    }
+
+
+/*-------------Footer--------------*/
+
+footer {
+    float: left; 
+    width: 100%; 
+    min-height: 250px;
+    background-color: #d9d2c8;  
+}
+
+
+.footerBox {
+    float: left; 
+    width: 20%; 
+    padding-left: 0%;
+    margin-left: 9.8%;  
+    margin-top: 3.5%;
+    min-height: 170px; 
+}
+
+#openTime {
+   text-align: center;
+}
+/* Döljer och visar punkter*/
+li {
+    display: inline;
+    font-family: 'Crimson Text', serif;
+    color: #47413f;
+}
+.hideDottsBetween {
+    margin:-1.5%;
+    display: inline; 
+}
+.comming-soon2 {
+   display: inline;
+}
+.comming-soon3 {
+    display:none; 
+}
+
+.comming-soon4 {
+    display: none; 
+}
+.showWeekend {
+    display: inline; 
+}
+/* Slut- Döljer och visar punkter*/
+
+.footerBox h6 {
+    color: #5d7f64;
+    font-size: 1em; 
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    text-align: center; 
+    padding-bottom: 6%;
+    }
+
+.footerBox p {
+    text-align: center; 
+    margin-top: 1%;   
+}
+.adress p {
+    text-align: center; 
+}
+
+
+.smalLink {
+    color: #5d7f64;
+    text-decoration: none;
+    margin-right: 2%;
+    margin-top: 4% !important;
+    font-family: 'Amiri', serif;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    font-size: 0.9em;
+}
+
+.smalLink:hover {
+    color: #324436; 
+    font-weight: bold;
+}
+
+.socialaMedier {
+    width: 80%; 
+}
+
+.loggaSocialamedier {
+    float: left; 
+    width: 38%;
+    
+}
+
+#ikoner {
+    margin-left: 23%;  
+    margin-top: 5%;
+}
+
+.ikonerBorder:after {
+    content: "";
+    display: block; 
+    border-left-style: solid; 
+    border-right-style: solid;
+    border-color: #5d74644f;
+    height: 80px;
+    border-width:1px;
+    padding-top: 2%;
+    margin-left: -20%;
+    margin-right:  -20%;
+
+}
+
+.txtSocialamedier p{
+    width: 60%; 
+    line-height: 99%;
+    float: left; 
+    text-align: center; 
+    font-style: italic;
+    color: #5d7f64;
+    font-family: 'Amiri', serif;
+    letter-spacing: 0.5px; 
+    font-size: 0.9em;
+}
+.phone {
+    text-align:center; 
+    margin-top: 1%; 
+    text-decoration: none; 
+}
+.epostRubrik {
+    text-align: left;
+    color: #5d7f64;
+    font-size: 0.9em; 
+    font-style: italic;
+    font-family: 'Amiri', serif;
+    letter-spacing: 0.5px; 
+}
+
+
+/* ------------------------Responsive max-width 1100px----------------------------*/	
+@media only screen and (max-width: 1100px) {  
+body {
+    width: 100%; 
+}
+
+/*-----Navigation-------*/
+#meny { 
+    width: 60%; 
+    margin-left: 26%;
+}
+
+
+#logotyp {
+    
+    margin-left: 40%;
+}
+
+
+
+.navigation {
+    height: 500px;
+}
+
+/*-----Inlägg 1 - Välkomsttext-------*/
+#welcome-info {
+    height: 500px;
+}
+
+#welcomePic img { 
+    width: 290px; 
+}
+
+.column {
+    width: 40%;   
+}
+
+/*-----Inlägg 2 - Navigationsbilder-------*/
+.boxpic {
+    max-width:28%; 
+}    
+
+.boxpictext {
+    width:60%;
+    margin-left:20%;
+    } 
+
+.boxpictext h2, .boxpictext h6 {
+    font-size:2em;
+    }
+/*-----Inlägg 3 - Infocontainer-------*/
+
+.infoBox {
+    width:25%; 
+    margin:2%;
+    padding:2%;
+    float:left; 
+    text-align: center;
+    }
+
+/*-----Inlägg 4 - presentation om oss-------*/
+.column-box-presentation {
+    margin-left: 5%;  
+}
+
+
+#presentationImg {
+    width: 40%;  
+    margin-right: 5%; 
+}
+
+#presentationImg img {
+    width: 320px; 
+}
+
+/*-----Footer-------*/
+.dotsremoved {
+    display: none; 
+}
+.hideDottsBetween {
+    display: none; 
+}
+
+.comming-soon3 {
+    display: inline;
+}
+.showWeekend{
+    display: none;
+}
+
+footer {
+    min-height: 200px;
+}
+} /*----Slut Responsiv 1100px*/
+
+
+/* ------------------------Responsive Ipad version max-width 768px----------------------------*/	
+
+@media only screen and (max-width: 770px) {  
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    }
+.presentationInfo h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 0.9em; 
+    text-align: center;
+}
+
+#activeIcon {
+    width: 95px;
+    margin-left: 0%;
+}
+
+/*-----Navigation-------*/
+#meny { 
+    width: 60%; 
+    display: none;
+}
+
+.navigation {
+    height: 400px;
+    background-image: url("../pic/forstasida.jpg"); 
+}
+
+#logotyp {
+    width: 20%;
+    display: inline;
+    margin-left: 37%;
+}
+
+#logotyp img {
+    max-height: 80px;
+    margin-top: 5%;
+    } 
+    
+/*-----Inlägg 1 - Välkomsttext-------*/
+#welcome-info {
+    height: 300px;
+}
+
+.column-box{
+    margin-left: 8%;  
+    float: left;
+    }
+
+#welcomePic img { 
+    width: 190px; 
+}
+
+.column {
+    width: 50%; 
+}
+.firstPageInfoMedium {
+    display: none; 
+}
+.firstPageInfoSmall {
+    display:none; 
+}
+
+/*-----Inlägg 2 - Navigationsbilder-------*/
+.boxpic {
+    max-width:28%; 
+}    
+
+.boxpictext {
+    width:60%;
+    margin-left:20%;
+    } 
+
+.boxpictext h2, .boxpictext h6 {
+    font-size:1.5em;
+    }
+
+/*-----Inlägg 3 - Infocontainer-------*/
+
+.infoBox {
+    width:20%; 
+    margin:2%;
+    padding:4%;
+    margin-left: 3%; 
+    }
+
+.infoBox img {
+    width: 35%; 
+}
+
+.infoBox h3 {
+    font-size: 0.7em;     
+}
+
+.infoHeadline {
+    font-size: 1.1em;
+    }
+
+.infoText {
+    font-size: 0.9em; 
+}
+
+
+/*-----Inlägg 4 - presentation om oss-------*/
+#presentation {
+    height: 260px;
+}
+
+.column-box-presentation {
+    margin-left: 5%;  
+}
+
+#presentationImg {
+    margin-right: 2%; 
+}
+
+#presentationImg img {
+    width: 200px; 
+}
+
+.presentationInfo {
+    width: 50%; 
+    padding-top: 5%;
+}
+
+/*-----Footer-------*/
+#openTime {
+    text-align: center; 
+}
+.comming-soon2 {
+    display: inline;
+}
+.comming-soon3 {
+    display:inline; 
+}
+.showWeekend {
+    display: none; 
+}
+
+li {
+    font-size: 0.7em; 
+}
+
+.footerBox h6{
+    font-size: 0.8em; 
+    margin-top: 5%; 
+ }
+
+.smalLink {
+    font-size: 0.8em; 
+}
+
+.txtSocialamedier {
+    font-size: 0.8em; 
+    margin-left: 5%;
+}
+
+.adress {
+    font-size: 0.7em; 
+}
+
+.epostRubrik {
+    font-size: 0.7em; 
+}
+
+
+
+} /*----Slut Responsiv Ipad version 768px*/
+/* ------------------------Responsive Ipad version max-width 768px----------------------------*/    
+@media only screen and (min-width: 461px) and (max-width: 770px) {  
+
+    /* Hamburgemeny */
+    
+    #activeIcon {
+        width: 170px !important;
+        height: 24px;
+        background-image: url('../pic/kryssMeny2.png');
+        background-repeat: no-repeat;
+        background-position: 10% 50%;
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding-left: 99%;
+        margin-left: 10%;
+        padding-top: 30% !important;
+    }
+    
+    .burgerMenu {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #burgerMenuList {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .burgerListItem {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #activeIcon {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    /* Slut hamburge meny */
+
+}
+
+/* ------------------------Responsive Ipad version max-width 555px----------------------------*/	
+@media only screen and (min-width: 461px) and (max-width: 554px) {  
+
+.navigation {
+    height: 400px;
+    width: 100%; 
+    background-image: url("../pic/forstasidaMobile.jpg"); 
+
+}
+
+  #burgerMenuList {
+	margin-top: 0% !important; 
+	height: auto;		
+}
+
+/*-----Inlägg 1 - Välkomsttext-------*/
+#welcome-info {
+    height: 300px;
+}
+
+#welcomePic img { 
+    width: 150px; 
+}
+
+/*-----Inlägg 3 - informations text-------*/
+
+.infoBox {
+    width:80%; 
+    margin:3%;
+    margin-left: 3%;
+}
+
+.infoBox img {
+    width: 20%; 
+}
+
+
+/*-----Inlägg 4 - presentation om oss-------*/
+#presentation {
+    height: 380px;
+    width: 92%;
+}
+
+.column-box-presentation {
+    margin-left: 5%;  
+}
+
+#presentationImg {
+   margin-left: 25%;
+    width: 80%;
+}
+
+#presentationImg img {
+    width: 200px; 
+}
+
+.presentationInfo {
+    width: 90%; 
+    padding-top: 5%;
+    margin-left:3%;    
+}
+
+
+/*-----Footer-------*/
+footer {
+    padding-top: 3%; 
+}
+
+.footerBox {
+    width: 75%;     
+}
+.footerBox h6{
+   font-size: 0.8em; 
+   margin-top: 5%; 
+}
+
+ul {
+    margin-top:2%; 
+}
+
+li{
+    font-size: 0.7em; 
+}
+#openTime {
+    text-align:center; 
+}
+.showWeekend {
+    display: none; 
+}
+.comming-soon2 {
+    display: none;
+}
+.comming-soon3 {
+    display:inline; 
+}
+.hideDottsBetween {
+    display: inline; 
+}
+
+.txtSocialamedier {
+    font-size: 0.8em; 
+    margin-left: 5%;
+}
+
+.ikonerBorder:after {
+    display: none; 
+}
+
+}
+
+
+/* ------------------------Responsive Ipad version max-width 460px----------------------------*/    
+@media only screen and (max-width: 460px) {  
+    
+    /* Hamburgemeny */
+    .burgerMenu {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #burgerMenuList {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .burgerListItem {
+        width: 90px;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #activeIcon {
+        width: 80px;
+        padding-top: 30%;
+    }
+    
+    /*Slut hamburgemeny*/
+
+}
+/* ------------------------Responsive Ipad version max-width 460px----------------------------*/	
+@media only screen and (max-width: 460px) {  
+
+h2 {
+    font-size: 1.3em;
+    margin-bottom: 2%; 
+}
+
+p {
+    font-size: 0.8em; 
+}
+
+#logotyp {
+    width: 10%;
+    display: inline;
+    margin-left: 30%;
+}
+
+#logotyp img {
+    max-height: 60px;
+    margin-top: 10%;
+    } 
+
+/*-----Inlägg 1 - Välkomsttext-------*/
+#welcome-info {
+    height: 430px !important;
+}
+
+.column {
+   margin-left: 2%;
+    width: 87%; 
+    }
+
+#welcomePic {
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+#welcome-info {
+    height: 300px;
+    }
+
+#welcomePic img {
+    width: 220px; 
+    margin-left: 20% !important; 
+    
+}
+
+
+
+/*-----Inlägg 2 - Navigationsbilder-------*/
+.boxpic {
+    max-width:80%; 
+    margin-left: 10%; 
+}    
+
+/*-----Inlägg 3 - Infocontainer-------*/
+#infoContainer {
+    padding-bottom:7%; 
+    padding-top: 7%; 
+    }
+
+.infoBox {
+    width:80%; 
+    margin:3%;
+    margin-left: 3%;
+}
+
+.infoBox img {
+    width: 20%; 
+}
+
+.infoBox h3 {
+    padding-top: 3%;    
+}
+
+.infoHeadline {
+    font-size: 0.8em; 
+}
+
+.infoText {
+    font-size: 0.7em; 
+}
+
+/*-----Inlägg 4 - presentation om oss-------*/
+#presentation {
+    height: 380px;
+}
+
+.column-box-presentation {
+    margin-left: 5%;  
+}
+
+#presentationImg {
+    margin-left: 15%; 
+    width: 80%;
+}
+
+#presentationImg img {
+    width: 200px; 
+}
+
+.presentationInfo {
+    width: 90%; 
+    padding-top: 5%;
+    margin-left:3%;    
+}
+
+.firstPageInfoSmall {
+    display: none; 
+}
+    
+/*-----Footer-------*/
+footer {
+    padding-top: 3%; 
+}
+
+.footerBox {
+    width: 75%;     
+}
+.footerBox h6{
+   font-size: 0.8em; 
+   margin-top: 5%; 
+}
+
+ul {
+    margin-top:2%; 
+}
+
+li{
+    font-size: 0.7em; 
+}
+#openTime {
+    text-align:center; 
+}
+.showWeekend {
+    display: none; 
+}
+.comming-soon2 {
+    display: none;
+}
+.comming-soon3 {
+    display:inline; 
+}
+.hideDottsBetween {
+    display: inline; 
+}
+
+.txtSocialamedier {
+    font-size: 0.8em; 
+    margin-left: 5%;
+}
+
+.ikonerBorder:after {
+    display: none; 
+}
